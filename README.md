@@ -9,7 +9,17 @@ pip install JoyIT_st7789vw
 ```
 
 ## Example
-You can execute the example with the following command.
+You need to clone this repository on your Raspberry Pi to be able to execute the example code.
+```
+git clone https://github.com/joy-it/JoyIT_st7789vw
+```
+Afterward, you need to move into the directory and activate the virtual environment with the following commands.
+```
+cd JoyIT_st7789vw
+python -m venv --system-site-packages env
+source env/bin/activate
+```
+Then you can execute the example with the following command.
 ```
 python3 examples/example.py
 ```

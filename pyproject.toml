@@ -11,11 +11,10 @@ authors = [
 ]
 description = "Library to use the SBC-LCD01 with the Raspberry Pi"
 readme = "README.md"
+license-files = ["LICENSE"]
 requires-python = ">=3.8"
-license = "MIT"
 classifiers = [
     "Programming Language :: Python :: 3",
-    "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
 ]
 

@@ -1,3 +1,3 @@
-from .JoyIT_st7789vw import *
+from .st7789vw import *
 
-name = "JoyIT_st7789vw"
+name = "st7789vw"
