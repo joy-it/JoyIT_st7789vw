@@ -1,15 +1,18 @@
 [build-system]
 requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
+
 [project]
 name = "JoyIT_st7789vw"
 version = "1.0.0"
+dependencies = ['gpiozero', 'spidev', 'numpy', 'Pillow']
 authors = [
   { name="Joy-IT", email="service@joy-it.net" },
 ]
 description = "Library to use the SBC-LCD01 with the Raspberry Pi"
 readme = "README.md"
 requires-python = ">=3.8"
+license = "MIT"
 classifiers = [
     "Programming Language :: Python :: 3",
     "License :: OSI Approved :: MIT License",
