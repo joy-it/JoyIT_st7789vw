@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="JoyIT_st7789vw",
-    version="1.0.0",
+    version="1.0.1",
     description="Library to use the SBC-LCD01 with the Raspberry Pi",
     author="Joy-IT",
     author_email="service@joy-it.net",

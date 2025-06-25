@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "JoyIT_st7789vw"
-version = "1.0.0"
+version = "1.0.1"
 dependencies = ['gpiozero', 'spidev', 'numpy', 'Pillow']
 authors = [
   { name="Joy-IT", email="service@joy-it.net" },
